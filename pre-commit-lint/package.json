@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "precommit": "eslint *.js"
+  },
+  "dependencies": {
+    "eslint": "^4.18.2",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "precommit"
+  ],
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0"
+  }
+}

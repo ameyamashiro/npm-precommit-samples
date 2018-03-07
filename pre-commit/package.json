@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "precommit": "exit 1"
+  },
+  "dependencies": {
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "precommit"
+  ]
+}
